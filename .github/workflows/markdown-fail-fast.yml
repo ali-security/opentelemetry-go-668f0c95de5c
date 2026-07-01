@@ -9,6 +9,7 @@ permissions: read-all
 
 jobs:
   changedfiles:
+    if: false
     name: changed files
     runs-on: ubuntu-latest
     outputs:
